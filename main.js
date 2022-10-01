@@ -15,8 +15,6 @@ for (let i = 0; i < movieElements.length; i++) {
 }
 
 function compareName(x, y) {
-    x_new = x["name"].replace(/[^a-zA-Z0-9 ]/g, '');
-    y_new = y["name"].replace(/[^a-zA-Z0-9 ]/g, '');
     if (x_new == y_new) return 0;
     return (Number(x_new > y_new) - 0.5) * 2;
 }
