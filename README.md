@@ -5,3 +5,5 @@ You can sort by:
 - Name (original list)
 - Number of jumpscares
 - Jumpscare rating
+
+Use this code on https://wheresthejump.com/full-movie-list/
