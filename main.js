@@ -15,8 +15,8 @@ for (let i = 0; i < movieElements.length; i++) {
 }
 
 function compareName(x, y) {
-    if (x_new == y_new) return 0;
-    return (Number(x_new > y_new) - 0.5) * 2;
+    if (x["name"] == y["name"]) return 0;
+    return (Number(x["name"] > y["name"]) - 0.5) * 2;
 }
 
 function compareNumber(x,y) {
