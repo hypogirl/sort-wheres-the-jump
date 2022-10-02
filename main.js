@@ -61,17 +61,11 @@ const sortrating = document.createElement("option");
 sortrating.innerHTML = "Jumpscare rating";
 sortrating.value = "r";
 
-//const sortbutton = document.createElement("button");
-//sortbutton.type = "button";
-//sortbutton.innerHTML = "Sort";
-//sortbutton.classList.add("menu-item", "menu-item-type-post_type", "menu-item-object-page");
-
 sortby.append(sortname);
 sortby.append(sortjump);
 sortby.append(sortrating);
 
 sortDiv.append(sortby);
-//sortDiv.append(sortbutton);
 
 const entry = document.getElementsByClassName("entry-content")[0];
 entry.children[0].innerHTML = "<h2>Sort by </h2>" + sortDiv.outerHTML;
