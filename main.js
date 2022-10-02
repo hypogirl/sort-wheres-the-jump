@@ -20,11 +20,11 @@ function compareName(x, y) {
 }
 
 function compareNumber(x,y) {
-    return -(x["jump-count"] - y["jump-count"]) / Math.abs(x["jump-count"] - y["jump-count"]) | 0;
+    return (y["jump-count"] - x["jump-count"]) / Math.abs(x["jump-count"] - y["jump-count"]) | 0;
 }
 
 function compareRating(x,y) {
-    return -(x["jump-rating"] - y["jump-rating"]) / Math.abs(x["jump-rating"] - y["jump-rating"]) | 0;
+    return (y["jump-rating"] - x["jump-rating"]) / Math.abs(x["jump-rating"] - y["jump-rating"]) | 0;
 }
 
 function sortTable() {
